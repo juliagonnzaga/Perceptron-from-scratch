@@ -1,15 +1,25 @@
-# First Neural Network
+# Creating a Perceptron From Scratch
 
-Neural Network exercises for Machine Learning and Data Science.  
+Neural Network exercises for Machine Learning and Data Science.
 
 ## Getting Started
 
+##### `Optional`: Create an enviroment
+
 ```bash
-    $ python perceptron.py
+    $ conda create --name newEnv -y python=3.7 numpy matplotlib
 ```
 
-## Next Steps
+##### `Optional`: Create a Jupyter Notebook:
 
--  ☑️ Create a perceptron neuron from scratch. 
-- 🔲 Use [scikit-learn](https://scikit-learn.org/stable/index.html) to create a Multilayer Perceptron Network.
-- 🔲 Use [keras](https://keras.io/) to create a deep learning model.
+```bash
+    $ conda install -c conda-forge jupyterlab
+    $ jupyter lab
+```
+
+##### Or just simply run the code:
+
+```bash
+    $ cd source
+    $ python perceptron.py
+```
