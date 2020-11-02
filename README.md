@@ -8,6 +8,7 @@ Neural Network exercises for Machine Learning and Data Science.
 
 ```bash
     $ conda create --name newEnv -y python=3.7 numpy matplotlib
+    $ conda activate newEnv
 ```
 
 ##### `Optional`: Create a Jupyter Notebook:
