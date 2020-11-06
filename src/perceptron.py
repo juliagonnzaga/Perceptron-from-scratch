@@ -122,4 +122,4 @@ for iteration in range(101):
 # Testing
 ##
 for i in range(len(X)):
-    print(X[0], perceptron.classify(X[0]))
+    print(X[i], perceptron.classify(X[i]))
